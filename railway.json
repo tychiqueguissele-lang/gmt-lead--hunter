@@ -1,0 +1,1 @@
+{\n  "$schema": "https://railway.app/railway.schema.json",\n  "build": { "builder": "DOCKER" },\n  "services": {\n    "gmt-api": { "source": "/backend" },\n    "gmt-web": { "source": "/frontend" }\n  }\n}
