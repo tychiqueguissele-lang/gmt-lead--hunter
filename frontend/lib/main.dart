@@ -40,7 +40,7 @@ class _DashboardPageState extends State<DashboardPage> {
   bool _isLoading = false;
 
   // ⚠️ REMPLACEZ CETTE URL PAR VOTRE LIEN BACKEND RAILWAY
-  final String backendUrl = "https://votre-projet-backend.up.railway.app/hunt";
+  final String backendUrl ="https://mysql-production-e612.up.railway.app/hunt";
 
   Future<void> _startHunt() async {
     if (_searchController.text.isEmpty) return;
